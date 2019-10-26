@@ -3594,7 +3594,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 2.75em;
+			font-size: 2.1em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
