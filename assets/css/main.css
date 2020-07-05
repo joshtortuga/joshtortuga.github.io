@@ -3610,10 +3610,10 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				background: #;
+				background: #ffffff;
 				content: '';
 				display: block;
-				height: 2px;
+				height: 4px;
 				position: absolute;
 				width: 100%;
 			}
