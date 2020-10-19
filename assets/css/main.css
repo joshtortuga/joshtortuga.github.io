@@ -1781,6 +1781,7 @@ input, select, textarea {
 
 	header.major {
 		margin: 0 0 3.5em 0;
+		
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -4035,3 +4036,34 @@ image.ugg {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	.icon {
+		text-decoration: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.solid:before {
+			font-weight: 900;
+		}
+
+		.icon.brands:before {
+			font-family: 'Font Awesome 5 Brands';
+		}
+

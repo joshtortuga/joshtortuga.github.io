@@ -52,7 +52,7 @@
 							<p>Here are some engineering projects that I have either done for class or personal projects I have worked on. To see more of my projects/classwork check out my GrabCad and GitHub profiles.</p>		<hr />
 									<h3>Punch Force Analysis</h3>
 
-									<p> I was a part of a three person team that designed and performed an experiment using a load cell, data acquisition hardware, LabVIEW to record data which was then exported to Excel for analysis. In the experiment a device was decided to mount and properly record the force of punches of various test subjects. The full report can be seen here. 
+									<p> I was a part of a three person team that designed and executed an experiment using a load cell. In addition to the load cell data acquisition hardware and LabVIEW were used. Labview was used to record data which was then exported to Excel for analysis. In order to properly record the force of a punch, a mecahnism needed to be designed to mount the load cell. Various test subjects punched the jig. Figure 1 illustrates the punching device. Figure 2 shows a test subject ready to punch the device. 
 										<br/>
 										<br/>
 										<span class="image ugg"><img src="images/punch.jpg" alt="" /></span>
@@ -62,12 +62,21 @@
 										
 										<span class="image idk"><img src="images/kelly.jpg" alt="" /></span>
 										<h6>Figure 2: Test subject ready to punch<h6/>
-							
+							<h2></h2>
+							<p>The data that came directly from Labview couldnt be neccessarily analyzed. The data that was output from Labview included voltages and times. Essentially, whenever the load cell experience some amount of force, it would output a voltage. Before the experiment, our team worked on creating a calibration curve that essentially converted voltages into force (N). One of the graphs that was analyzed can be seen in Figure 3. On the graph, it can be seen around 6 seconds that the load cell experienced around 1500 N. The other spikes in force after 6 seconds are most likely due to the bounce of the mechanism.</p>
 
+
+	<span class="image fit"><img src="images/graph.png" alt="" /></span>
+	<h6>Figure 3: Graph of Force vs Time <h6/>
+
+	<h2></h2>
+				<p>This experiment was done for my Mechanical Engineering 303: Instrumentation and Measurements. This is hands down one of my top 3 favorite classes I have taken in college. The full lab report can be seen <a href="https://docs.google.com/document/d/1XLdk8ATV9H-v2F6rv_z2RSZtY104nueKoycGy6CeTOA/edit?usp=sharing">here</a>. </p>
+
+	<hr />
 									<h3>Saturn V Stage Seperation Model: Matlab</h3>
 
 
-									<p>As a class assingment, I was tasked to create a Saturn V launch model. The source code can be seem down below. This model kept track of stage seperation, rocket mass, and amount of fuel. This is one of many examples of matlab coding I have done. To see more examples, check out my github link at the bottom of the website. </p>
+									<p>As a class assingment, I was tasked to create a Saturn V launch model. The source code can be seem down below. This model kept track of stage seperation, rocket mass, and amount of fuel.</p>
 									<pre><code>
 clear; clc;
 
