@@ -2170,6 +2170,20 @@ image.ugg {
 				margin-right: auto;
 			}
 
+
+.image.yesss {
+			display: block;
+  			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+
+			.image.yesss img {
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
 /* List */
 
 	ol {
